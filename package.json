@@ -1,7 +1,7 @@
 {
-  "name": "node-telephone-user-search",
+  "name": "node-auth-alteryx",
   "version": "1.0.0",
-  "description": "node-telephone-user-search \n If you dont have install node-js, please go this link [https://nodejs.org](https://nodejs.org)",
+  "description": "node-auth-alteryx \n If you dont have install node-js, please go this link [https://nodejs.org](https://nodejs.org)",
   "main": "index.js",
   "config": {
     "engine": "getcontact",
@@ -38,15 +38,17 @@
     "eslint": "^4.18.2",
     "eslint-config-google": "^0.9.1",
     "nodemon": "^1.11.0",
-    "pgtools": "^0.3.0",
     "swagger-tools": "^0.10.3"
+  },
+  "bin": {
+    "node-auth-alteryx": "run.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mihalskiy/node-telephone-user-search.git"
+    "url": "git+https://github.com/odykyi/node-auth-alteryx.git"
   },
   "bugs": {
-    "url": "https://github.com/mihalskiy/node-telephone-user-search/issues"
+    "url": "https://github.com/odykyi/node-auth-alteryx/issues"
   },
-  "homepage": "https://github.com/mihalskiy/node-telephone-user-search#readme"
+  "homepage": "https://github.com/odykyi/node-auth-alteryx#readme"
 }
